@@ -1,24 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #e3f2fd, #bbdefb);
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-   
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canva Clone | Design Anything</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="canva_logo-removebg-preview.png" alt="Canva logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Design spotlight</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Plans</a></li>
+      </ul>
+    </nav>
+    <div class="auth">
+      <button class="login">Log in</button>
+      <button class="signup">Sign up</button>
+    </div>
+  </header>
 
-  <p>This site is live on GitHub Pages</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>What will you design today?</h1>
+      <p>
+        Canva makes it easy to create professional designs for free.
+        Design anything — from social posts to presentations, logos, and more.
+      </p>
+      <div class="hero-buttons">
+        <button class="start-btn">Start designing</button>
+        <button class="learn-btn">Learn more</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://cdn.dribbble.com/userupload/3121036/file/original-4509b3c82c4c2aa5a7444b470eaa7d6b.png?resize=1200x900" alt="Design preview">
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <h2>Explore what you can design</h2>
+    <div class="feature-grid">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="">
+        <h3>Social Media</h3>
+        <p>Design posts and stories for Instagram, Facebook, and more.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/609/609361.png" alt="">
+        <h3>Presentations</h3>
+        <p>Create beautiful slides with templates ready to go.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="">
+        <h3>Logos</h3>
+        <p>Build your brand with unique, high-quality logo templates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Canva Clone Project by Shifa</p>
+  </footer>
 </body>
 </html>
